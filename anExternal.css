@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+}
+h2 {
+    color: white;
+    margin: 5px;
+    border: 5px white dotted;
+    padding: 20px;
+    text-align: center;
+}
+h3 {
+    color: lightcoral;
+    border: 10px blue solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+button {
+    float: right;
+}
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+}
+.dottedbox{
+    border: 1px dotted ;
+}
